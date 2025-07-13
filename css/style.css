@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Header Section */
+header{
+    display: flex;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 24px 30px;
+    border-right:  solid 1px #ccc;
+}
+.headerAddress{
+    padding: 20px 40px;
+}
+.headerAddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.headerAddress p{
+    font-size: 14px;
+}
