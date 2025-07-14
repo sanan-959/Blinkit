@@ -48,6 +48,13 @@
   .categoryItem {
     flex-basis: 20%;
   }
+  .productSection{
+    padding: 0px 10px;
+  }
+  .productItem{
+    flex-basis: 48%;
+  }
+  
 }
 
 /* Tab Screen */
@@ -83,6 +90,8 @@
     width: 100%;
     bottom: 0;
     justify-content: center;
+    background-color: white;
+    padding: 5px 0px;
   }
   .headerBtn button {
     padding: 10px;
@@ -91,4 +100,12 @@
   .categoryItem {
     flex-basis: 16.60%;
   }
+  .productSection{
+    padding: 0px 10px;
+  }
+  .productItem{
+    flex-basis: 32%;
+  }
+  
+  
 }
