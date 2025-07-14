@@ -1,8 +1,52 @@
 @media only screen and (min-width: 220px) and (max-width: 575px) {
-   header{
+  header {
     flex-direction: column;
-   }
-    .headerLeft {
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px;
+  }
+  .headerLeft {
+    justify-content: center;
+  }
+  .logo {
+    padding: 10px;
+  }
+  .headerAddress {
+    padding: 10px;
+  }
+  .headerAddress h3 {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  .headerAddress p {
+    font-size: 10px;
+  }
+  .searchBox button {
+    padding: 10px;
+  }
+  .headerBtn{
+    position: fixed;
+    margin-right: 0px;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+  }
+  .headerBtn button{
+    padding: 10px;
+    font-size: 14px;
+    
+}
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+  header {
+    flex-direction: row;
+    /* align-items: stretch; */
+    gap: 10px;
+    padding: 10px;
+  }
+  .headerLeft {
     justify-content: center;
   }
   .logo {
@@ -18,4 +62,19 @@
   .headerAddress p {
     font-size: 10px;
   }
+  .searchBox button {
+    padding: 10px;
+  }
+  .headerBtn{
+    position: fixed;
+    margin-right: 0px;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+  }
+  .headerBtn button{
+    padding: 10px;
+    font-size: 14px;
+    
+}
 }
