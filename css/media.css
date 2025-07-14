@@ -1,3 +1,4 @@
+/* Mobile Screen */
 @media only screen and (min-width: 220px) and (max-width: 575px) {
   header {
     flex-direction: column;
@@ -24,22 +25,33 @@
   .searchBox button {
     padding: 10px;
   }
-  .headerBtn{
+  .headerBtn {
     position: fixed;
     margin-right: 0px;
     width: 100%;
     bottom: 0;
     justify-content: center;
+    background-color: white;
+    padding: 5px 0px;
   }
-  .headerBtn button{
+  .headerBtn button {
     padding: 10px;
     font-size: 14px;
-    
-}
+  }
+  .bannerSection {
+    display: none;
+  }
+  .orderBanner {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .categoryItem {
+    flex-basis: 20%;
+  }
 }
 
-
-@media only screen and (min-width: 576px) and (max-width: 991px){
+/* Tab Screen */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
   header {
     flex-direction: row;
     /* align-items: stretch; */
@@ -65,16 +77,18 @@
   .searchBox button {
     padding: 10px;
   }
-  .headerBtn{
+  .headerBtn {
     position: fixed;
     margin-right: 0px;
     width: 100%;
     bottom: 0;
     justify-content: center;
   }
-  .headerBtn button{
+  .headerBtn button {
     padding: 10px;
     font-size: 14px;
-    
-}
+  }
+  .categoryItem {
+    flex-basis: 16.60%;
+  }
 }

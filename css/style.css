@@ -69,3 +69,35 @@ header {
     color: white;
     border-radius: 5px;
 }
+/* Banner Section */
+.bannerSection{
+    margin: auto;
+    max-width: 1280px;
+}
+.bannerSection img{
+    width: 100%;
+}
+.orderBanner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+.orderBannerItems{
+    flex-basis: 25%;
+    margin: 1%;
+}
+.orderBannerItems img{
+    width: 100%;
+}
+.categorySection{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.categoryItem{
+    flex-basis: 10%;
+}
+.categoryItem img{
+    width: 100%;
+}
