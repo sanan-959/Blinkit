@@ -54,6 +54,10 @@
   .productItem{
     flex-basis: 48%;
   }
+  .footerMid-row1{
+    flex-direction: column;
+    padding: 10px;
+  }
   
 }
 
@@ -105,6 +109,11 @@
   }
   .productItem{
     flex-basis: 32%;
+  }
+  .footerMid-row1{
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 50px;
   }
   
   
