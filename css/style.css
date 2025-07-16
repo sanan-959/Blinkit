@@ -189,6 +189,7 @@ footer{
 .footerMid-row1{
     width: 100%;
     display: flex;
+    gap: 40px;
 }
 .footerMid-row1-left{
     flex-basis: 30%;
@@ -214,4 +215,19 @@ footer{
 
 .footerMid-row1-right{
     flex-basis: 70%;
+}
+.category-heading{
+    display: flex; 
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.category-heading a{
+    text-decoration: none;
+    color: rgb(79, 133, 79);
+}
+.footerLast-row p{
+    font-size: 12px;
+   color: rgb(102, 102, 102); 
+   line-height: 20px;
+   padding: 20px 0px;
 }
